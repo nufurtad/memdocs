@@ -41,7 +41,7 @@ The following features require you to enable this support:
 - Expedited quality update policies with alerts /  Windows expedited update failures
 - Feature update policies with alerts / Feature update failures
 
-To enable support, set **Enable features that require Windows diagnostic data in processor configuration** to **On**. By default, it's *Off*.
+To enable support, set **Enable features that require Windows diagnostic data in processor configuration** to **On**. By default, it's *Off* (go to **Microsofte Intun Admin Center** > **Tenant administration** > **Connectors and tokens** > **Windows data** > *Windows data*).
 
 - While there are other methods to enable this support for a tenant, this toggle only reflects your configuration choice for Intune features.
 - Changing this toggle from *On* to *Off* disables use of Intune features that require this configuration but might not turn off processor configuration configured by other methods.
@@ -62,7 +62,7 @@ Supported licenses include the following options:
 - Windows Education A3 or A5; or Microsoft 365 A3 or A5.
 - Windows Virtual Desktop Access E3 or E5.
 
-To confirm you own the required licenses for these features, set **I confirm that my tenant owns one of these license** to **On**. By default, it's *Off*.
+To confirm you own the required licenses for these features, set **I confirm that my tenant owns one of these license** to **On**. By default, it's *Off* (go to **Microsoft Intune Admin Center** > **Tenant administration** > **Connectors and tokens** > **Windows data** > *Windows license verification*).
 
 - Other features can require these same licenses, but only the features listed in this section currently require this toggle to be set to *On*.
 - Features that require this attestation aren't available for use when this toggle is set to *Off*.
