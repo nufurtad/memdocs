@@ -41,7 +41,7 @@ The following features require you to enable this support:
 - Expedited quality update policies with alerts /  Windows expedited update failures
 - Feature update policies with alerts / Feature update failures
 
-To enable support, set **Enable features that require Windows diagnostic data in processor configuration** to **On**. By default, it's *Off* (go to **Microsofte Intune Admin Center** > **Tenant administration** > **Connectors and tokens** > **Windows data** > **Windows data**).
+To enable support, set **Enable features that require Windows diagnostic data in processor configuration** to **On**. By default, it's *Off* (go to **Microsoft Intune Admin Center** > **Tenant administration** > **Connectors and tokens** > **Windows data** > **Windows data**).
 
 - While there are other methods to enable this support for a tenant, this toggle only reflects your configuration choice for Intune features.
 - Changing this toggle from *On* to *Off* disables use of Intune features that require this configuration but might not turn off processor configuration configured by other methods.
